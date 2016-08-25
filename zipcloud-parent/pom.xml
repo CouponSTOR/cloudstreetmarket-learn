@@ -22,7 +22,7 @@
 
 		<dependencies>
 
-			<!-- Spring dependencies -->
+			<!-- Spring Jagannath dependencies -->
 			<!-- Spring core container -->
 			<dependency>
 				<groupId>org.springframework</groupId>
