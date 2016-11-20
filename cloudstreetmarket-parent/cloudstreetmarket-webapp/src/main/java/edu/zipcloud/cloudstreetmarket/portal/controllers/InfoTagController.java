@@ -33,9 +33,9 @@ public class InfoTagController extends CloudstreetWebAppWCI {
 	}
 	
 	@RequestMapping("/helloHandler")
-	@ResponseBody
+	@ResponseBody 
 	public String helloController(){
 		return "Hello My Name is Jagannath Mishra.";
 	}
-
+// This is a comment line
 }
