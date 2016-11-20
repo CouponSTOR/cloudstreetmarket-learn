@@ -12,13 +12,13 @@ import org.springframework.web.context.WebApplicationContext;
 
 @Controller
 @RequestMapping("/info")
-public class InfoTagController {
-	
+public class InfoTagController extends CloudstreetWebAppWCI {
+
 	@Autowired
 	private WebApplicationContext webAppContext;
 
 	private final static LocalDateTime startDateTime = LocalDateTime.now();
-	private final static DateTimeFormatter DT_FORMATTER =  DateTimeFormatter.ofPattern("EEE, d MMM yyyy h:mm:ss a");
+	private final static DateTimeFormatter DT_FORMATTER =  DateTimeFormatter.ofPattern("EEE, d MMM yyyy h:mm a");
 		
 	@RequestMapping("/server")
 	@ResponseBody
@@ -32,11 +32,10 @@ public class InfoTagController {
 		.toString();
 	}
 	
-	
-	
 	@RequestMapping("/helloHandler")
 	@ResponseBody
-	public String helloController() {
-		return "<h1>Hi There..! This is Jagannth Mishra</h1>";
+	public String helloController(){
+		return "Hello My Name is Jagannath Mishra.";
 	}
+
 }
