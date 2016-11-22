@@ -1,5 +1,5 @@
 /*!
-* Author: Łukasz Holeczek
+* Author: ukasz Holeczek
 * Template: FreeME - HTML5 Responsive Bootstrap Theme
 * Version: 1.0.0 
 * Bootstrap version: 2.1.1
@@ -1138,7 +1138,92 @@ form#newsletter input[type=submit] {
 
 .ie7 .flickr-widget a {width: 54px; height: 54px;}
 
-
+.logo{
+	font-family: 'Droid Sans';	
+	font-size: 24pt;
+	color: #666;
+	width:157pt;
+	font-weight:bold;
+	margin-top:18pt;
+	margin-left:10pt;
+	height:30pt;
+}
+.logo span{
+	position:relative;
+	float:right; 
+	margin-top: 3pt;	
+	font-weight:normal; 
+	font-family: 'Boogaloo'; 
+	font-style:italic;	
+	color: #89C236;
+}
+.logo .sub {
+	vertical-align: super;	
+	font-style:normal;
+	font-size: 16pt; 
+	font-family: 'Droid Sans';	
+	font-weight:bold; 
+	position: absolute;	
+	color: #888; 	
+	margin:-4pt 0 -4pt 0;
+}
+.logoSmall{
+	font-family: 'Droid Sans';	
+	font-size: 16pt; 
+	color: #888;	
+	width:80pt;	
+	font-weight:bold; 
+	margin-top:10pt;	
+	height:20pt; 
+	margin-right:30pt;
+}
+.logoSmall span{
+	position:relative;	
+	float:right; 
+	margin-top: 3pt;
+	font-weight:normal;
+	font-family: 'Boogaloo';	
+	font-style:italic;
+	color: #89C236;
+	padding-right: 3pt;
+}
+.logoSmall .sub {
+vertical-align: super;
+	font-style:normal;	
+	font-size: 10pt;
+	font-family: 'Droid Sans';
+	font-weight:bold;	
+	position: absolute;
+	color: #666;	
+	margin:-2pt 0 -4pt 0;
+}
+.listUserIco {
+		background-color:#bbb;
+		float:left;
+		margin:0 7px 0 0;
+}
+.listActionIco {
+		float:right; 
+}
+.actionSell {
+		background-color:#FC9090;
+}
+.actionBuy {
+		background-color:#8CDBA0;
+}
+#landingGraphContainer{
+		height:160px;
+		padding: 0px 13px 0 10px;
+		margin-bottom:36px;
+}
+.tableMarketPrices{
+		padding: 13px 13px 0 15px;
+}
+.centeredElementBox{
+	width:56%;
+	margin-left: 23%;
+	margin-top:-10px;
+}
 
 /* Higher than 960 (desktop devices)
 ====================================================================== */
@@ -1188,4 +1273,6 @@ form#newsletter input[type=submit] {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
 =================================================================== */
 @media only screen and (max-width: 479px) {}
-	
+
+
+
